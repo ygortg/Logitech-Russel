@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Logitech-Russel/static/css/main.488df62a.css",
+    "main.js": "/Logitech-Russel/static/js/main.fb2e127e.js",
+    "static/js/453.a4ecaf18.chunk.js": "/Logitech-Russel/static/js/453.a4ecaf18.chunk.js",
+    "static/media/Banner.png": "/Logitech-Russel/static/media/Banner.509b55943fad104eeb30.png",
+    "index.html": "/Logitech-Russel/index.html",
+    "main.488df62a.css.map": "/Logitech-Russel/static/css/main.488df62a.css.map",
+    "main.fb2e127e.js.map": "/Logitech-Russel/static/js/main.fb2e127e.js.map",
+    "453.a4ecaf18.chunk.js.map": "/Logitech-Russel/static/js/453.a4ecaf18.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.488df62a.css",
+    "static/js/main.fb2e127e.js"
+  ]
+}
