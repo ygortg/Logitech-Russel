@@ -1,0 +1,44 @@
+.cardProdutos-carrossel {
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Sans", sans-serif;
+    
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+    background-color: white;
+    color: black;
+}
+.cardProdutos-carrossel:hover{
+    background-color: #E8E8E8;
+    transition: 0.5s;
+}
+
+.imagem-produto img{
+    width: 8.188rem;
+    height: 9rem;
+    object-fit: contain;
+    
+    border-radius: 0.25rem;
+}
+
+.texto-produto{
+    gap: 0.75rem;
+}
+.valor-produto-carrossel{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.desconto{
+    font-size: 0.75rem;
+    color: #5438FF;
+    line-height: 0.75rem;
+}
+
+/* =============== RESPONSIVO =============== */
+@media (min-width:768px){
+    .imagem-produto img{
+      width: 100%;
+      height: auto;
+    }
+}

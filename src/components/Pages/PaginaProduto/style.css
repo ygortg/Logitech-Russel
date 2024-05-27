@@ -1,0 +1,114 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  .pagina-produto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 0 1.5rem;
+  }
+  
+  .produto-imagem {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .produto-imagem img {
+    object-fit: cover;
+  }
+  
+
+  .produto-detalhes {
+    flex: 2;
+    padding: 0 5px;
+  }
+  .produto-detalhes h1 {
+    font-size: 24px;
+    line-height: 120%;
+  }
+  .produto-detalhes p {
+    font-size: 1rem;
+
+  }
+  .produto-detalhes p > .marca{
+    color: #00B5EA;
+    font-weight: bold;
+  }
+  .produto-detalhes .status{
+    font-weight: bold;
+    color: #5438FF;
+  }
+  
+  
+  .produto-valores .promocao {
+    display: inline;
+    font-size: 3rem;
+    color: #5438FF;
+    font-weight: bold;
+  }
+  
+  .produto-valores .valor {
+    display: inline;
+    font-size: 18px;
+    text-decoration: line-through;
+    color: #555;
+  }
+  
+  .produto-botoes {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .comprar-btn,
+  .carrinho-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .comprar-btn {
+    background-color: #5438FF;
+    color: white;
+  }
+  
+  .comprar-btn:hover {
+    background-color: #3722BA;
+  }
+  
+  .carrinho-btn {
+    border: 1px solid #5438FF;
+    background-color: white;
+    color: #5438FF;
+  }
+  
+  .carrinho-btn:hover {
+    background-color: #3722BA;
+    color: white;
+  }
+  /* =============== RESPONSIVO =============== */
+@media (min-width:768px){
+    .pagina-produto{
+        margin: 5%;
+        gap: 2.5rem;
+        padding: 4rem 7.5rem;
+    } 
+    .produto-detalhes{
+        padding: 20px;
+    }  
+    
+    .produto-botoes{
+        flex-direction: row;
+    }
+}

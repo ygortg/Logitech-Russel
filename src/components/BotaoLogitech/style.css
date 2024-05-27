@@ -1,0 +1,17 @@
+.botaoLigitech{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    padding: 8px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    color: #020202;
+    background-color: #00B5EA;
+}
+.botaoLigitech:hover{
+    background-color: #0085AC;
+    transition: 0.5s;
+}

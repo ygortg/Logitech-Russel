@@ -1,0 +1,19 @@
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    
+    height: 35px;
+    padding: 8px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    color: white;
+    background-color: #5438FF;
+}
+.botao:hover{
+    background-color: #3722BA;
+    transition: 0.5s;
+}
